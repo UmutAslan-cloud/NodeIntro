@@ -3,9 +3,9 @@
  * Bu odevde dort islem icin birer fonksiyon ve yazdirma icin ayri birer fonksiyon yazacagimiz
  * bu fonksiyonlarimizi uygulamamizin ana dosyasina require ve module.exports kullanarak cekecegiz
  * /*  */
- 
 
 
+//Import ettigimiz fonksiyonlari bir objeye atiyoruz
 const calCulate = require("./functions")
 
 

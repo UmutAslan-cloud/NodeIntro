@@ -1,28 +1,32 @@
-function plus(a,b) {
-    let result=a+b
+//Toplama fonksiyonumuz
+function plus(a, b) {
+    let result = a + b
     resulta(result)
 }
-function minus(a,b) {
-    let result=a-b
+//cikarma fonksiyonumuz
+function minus(a, b) {
+    let result = a - b
     resulta(result)
 }
-function mult(a,b) {
-    let result=a*b
+//carpma fonksiyonumuz
+function mult(a, b) {
+    let result = a * b
     resulta(result)
 }
-function div(a,b) {
-    let result=a/b
+//bolme fonksiyonumuz
+function div(a, b) {
+    let result = a / b
     resulta(result)
 }
-
+//Yazdirma fonksiyonumuz
 function resulta(presult) {
     console.log(`${presult}`)
 }
+//Fonksiyonlarimizi bir obje olarak import ediyoruz
+module.exports = {
+    toplama: plus,
+    carpma: mult,
+    bolme: div,
+    cikarma: minus
 
-module.exports={
-    toplama:plus,
-    carpma:mult,
-    bolme:div,
-    cikarma:minus
-    
 }
